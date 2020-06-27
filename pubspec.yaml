@@ -1,0 +1,90 @@
+name: citoto
+description: Citoto Startup Related End User Application
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.5.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  flutter_vector_icons: 0.2.1
+  flare_flutter: any
+  smart_flare: any
+  path_provider: ^1.6.11
+  permission_handler: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.0
+  google_maps_flutter: ^0.5.21+17
+  flutter_socket_io: ^0.6.0
+  scoped_model: ^1.0.1
+  mongo_dart: ^0.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sx0.jpeg
+    - assets/sx1.jpeg
+    - assets/sx2.jpeg
+    - assets/sx3.jpeg
+    - assets/sx4.jpeg
+    - assets/sx5.jpeg
+    - assets/sx6.jpeg
+    - assets/sx7.jpeg
+    - assets/sx8.jpeg
+    - assets/sx9.jpeg
+    - assets/flare/navigation-animation.flr
+
+  fonts:
+    - family: Times-New-Roman
+      fonts:
+        - asset: assets/fonts/times-new-roman.ttf
+          weight: 700
+
+    - family: Calibri
+      fonts:
+        - asset: assets/fonts/calibri.ttf
+#
+#    - family: Ariana-Violeta
+#      fonts:
+#        - asset: assets/fonts/ariana_violeta.ttf
+#          style: italic
+#          weight: 400
+#
+#    - family: Believe-It
+#      fonts:
+#        - assets: assets/fonts/believe_it.ttf
+
+#    - family: Berlyna
+#      fonts:
+#        - assets: assets/fonts/berlynaDemo_regular.ttf
+#        - assets: assets/fonts/berlynaDemo_bold.ttf
+#          weight: 400
+#
+#    - family: Branda
+#      fonts:
+#        - assets: assets/fonts/branda.ttf
+#
+#    - family: Copenhagen
+#      fonts:
+#        - assets: assets/fonts/copenhagen.ttf
+#
+#    - family: Morgan-Chalk
+#      fonts:
+#        - assets: assets/fonts/morgan_chalk.ttf
+#
+#    - family: Short-Baby
+#      fonts:
+#        - assets: assets/fonts/short_baby.ttf
+#
+#   - family: Trajan Pro
+#     fonts:
+#       - asset: fonts/TrajanPro.ttf
+#       - asset: fonts/TrajanPro_Bold.ttf
+#         weight: 700
+
