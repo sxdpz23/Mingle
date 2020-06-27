@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:citoto/screens/home.dart';
+import 'package:citoto/screens/mingle.dart';
 import 'package:citoto/widgets/read-write-file.dart';
 
 class Login extends StatefulWidget {
@@ -271,7 +271,10 @@ class _LoggingState extends State<Login> {
     final String password = _passController.text;
     print('Citoto \nID- $citotoID\nPASSWORD - $password');
     _storage.writeFile(citotoID);
-    Route _route = MaterialPageRoute(builder: (context) => Home());
+    Route _route = MaterialPageRoute(
+        builder: (context) => Mingle(
+              citID: citotoID,
+            ));
     Navigator.pushReplacement(context, _route);
   }
 

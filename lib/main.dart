@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:citoto/screens/home.dart';
+import 'package:citoto/screens/mingle.dart';
 import 'package:citoto/screens/login.dart';
 import 'package:citoto/widgets/read-write-file.dart';
 
@@ -26,15 +26,6 @@ class MyApp extends StatelessWidget {
         home: Main(),
       ),
     );
-
-    //   For Chatting model
-    // return ScopedModel(
-    //   model: ChatModel(),
-    //   child: MaterialApp(
-    //     home: AllChatsPage(),
-    //     debugShowCheckedModeBanner: false,
-    //   ),
-    // );
   }
 }
 
@@ -55,7 +46,11 @@ class _MainState extends State<Main> {
       });
     });
     return Scaffold(
-      body: (_value == '' || _value == null) ? Login() : Home(),
+      body: (_value == '' || _value == null)
+          ? Login()
+          : Mingle(
+              citID: _value,
+            ),
     );
   }
 }

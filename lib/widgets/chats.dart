@@ -5,8 +5,6 @@ import 'package:scoped_model/scoped_model.dart';
 import 'package:flutter_socket_io/flutter_socket_io.dart';
 import 'package:flutter_socket_io/socket_io_manager.dart';
 
-import 'package:citoto/widgets/read-write-file.dart';
-
 class User {
   String username;
   String citID;
