@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "async",
-      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.4.1",
+      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.4.2",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
@@ -21,9 +21,9 @@
     },
     {
       "name": "characters",
-      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.0.0",
+      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.2",
       "packageUri": "lib/",
-      "languageVersion": "2.6"
+      "languageVersion": "2.10"
     },
     {
       "name": "charcode",
@@ -39,9 +39,9 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.13",
+      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.2",
       "packageUri": "lib/",
-      "languageVersion": "2.3"
+      "languageVersion": "2.10"
     },
     {
       "name": "convert",
@@ -95,7 +95,7 @@
       "name": "flutter",
       "rootUri": "file:///C:/Files/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "2.9"
+      "languageVersion": "2.10"
     },
     {
       "name": "flutter_plugin_android_lifecycle",
@@ -147,15 +147,15 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.8",
+      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.9",
       "packageUri": "lib/",
-      "languageVersion": "2.4"
+      "languageVersion": "2.7"
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8",
+      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.2",
       "packageUri": "lib/",
-      "languageVersion": "1.12"
+      "languageVersion": "2.10"
     },
     {
       "name": "mongo_dart",
@@ -273,9 +273,9 @@
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.3",
+      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.5",
       "packageUri": "lib/",
-      "languageVersion": "1.23"
+      "languageVersion": "2.0"
     },
     {
       "name": "stream_channel",
@@ -303,15 +303,15 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.17",
+      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.18",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.2.0",
+      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.2",
       "packageUri": "lib/",
-      "languageVersion": "2.4"
+      "languageVersion": "2.10"
     },
     {
       "name": "uuid",
@@ -321,9 +321,9 @@
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8",
+      "rootUri": "file:///C:/Files/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.2",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.10"
     },
     {
       "name": "xdg_directories",
@@ -338,7 +338,7 @@
       "languageVersion": "2.5"
     }
   ],
-  "generated": "2020-06-26T16:52:31.229780Z",
+  "generated": "2020-08-20T13:53:07.895307Z",
   "generator": "pub",
-  "generatorVersion": "2.9.0-18.0.dev.flutter-6b630c3719"
+  "generatorVersion": "2.10.0-2.0.dev.flutter-bd528bfbd6"
 }

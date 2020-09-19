@@ -38,7 +38,7 @@ flutter:
     - assets/sx7.jpeg
     - assets/sx8.jpeg
     - assets/sx9.jpeg
-    - assets/flare/navigation-animation.flr
+    # - assets/flare/navigation-animation.flr
 
   fonts:
     - family: Times-New-Roman
