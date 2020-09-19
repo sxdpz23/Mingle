@@ -1,6 +1,6 @@
-# citoto
+# Mingle
 
-Citoto Startup Related End User Application
+A Chatting Flutter Application
 
 ## Getting Started
 
